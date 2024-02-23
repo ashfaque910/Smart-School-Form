@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+  }
+  .nav-wrapper {
+    width: 100%;
+    margin-top: -8px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-brand {
+    width: 50%;
+    padding-left: 6.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(61, 148, 49);
+  }
+  
+  .navbar-collapse {
+    width: 50%;
+    margin-top: 0.8rem;
+  }
+  .nav-item {
+    padding: 0 5px;
+  }
+  
+  .fa-solid {
+    color: rgb(61, 148, 49);
+  }
+  .fa-solid:hover {
+    color: rgb(11, 60, 5);
+  }
+  .orange {
+    background-color: orangered;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .orange:hover {
+    color: antiquewhite;
+  }
+  .blue {
+    background-color: blue;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    /* padding: 0 5px; */
+  }
+  .blue:hover {
+    color: antiquewhite;
+  }
+  
+  /* Add these styles to your existing CSS */
+  .second-nav {
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .second-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .second-nav li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .second-nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .second-nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* form sections  */
+  .container-fluid {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .Section-1,
+  .Section-2,
+  .Section-3 {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  h2,
+  h4 {
+    color: rgb(61, 148, 49);
+    background-color: aquamarine;
+    padding: 8px 12px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group,
+  .input-group-addon {
+    width: 100%;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Radio button styles */
+  .form-check-input {
+    margin-right: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    color: antiquewhite;
+    background-color: #bd2130;
+  }
+  
